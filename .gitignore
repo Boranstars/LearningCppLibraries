@@ -1,7 +1,9 @@
 .idea
 .vscode
+.vs
 cmake-build*
 build
+out
 vcpkg_installed
 logs
 **/*.log
