@@ -1,0 +1,7 @@
+.idea
+.vscode
+cmake-build*
+build
+vcpkg_installed
+logs
+**/*.log
