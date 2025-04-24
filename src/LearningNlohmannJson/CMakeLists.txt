@@ -16,6 +16,7 @@ foreach(test_source ${TEST_SOURCES})
     # 4. 链接库（替换为库的目标名称）
     target_link_libraries(${test_name} PRIVATE
             nlohmann_json::nlohmann_json
+            fmt::fmt
     )
 
     # 5. 库特定编译定义（可选）
