@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <memory>
+#include <algorithm>
 #include "spdlog/async.h"
 #include "spdlog/common.h"
 #include "spdlog/logger.h"
